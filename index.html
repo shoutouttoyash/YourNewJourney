@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your E-Commerce Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="Logo.jpg" alt="Your Company Logo" width="150" height="100">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="Appointment.html">Book Appointment</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li class="login-cart"><a href="#">Login</a></li>
+                <li class="login-cart">
+                    <a href="#"><img src="" alt="Shopping Cart"></a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Your Journey to Canada Starts Here</h1>
+        <img src="josh-lavallee-RLtFZZa30vY-unsplash.jpg" alt="Canada Image">
+    </section>
+
+    <section class="contact-form">
+        <h2>Get In Touch</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your E-Commerce Service</p>
+    </footer>
+
+    <section class="chatbot">
+        <div class="chatbot-container">
+            <div class="chatbot-header">
+                <p>Chat with us</p>
+                <span id="close-chatbot">X</span>
+            </div>
+            <div class="chatbot-messages">
+                <!-- Chatbot messages will appear here -->
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="send-message">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
